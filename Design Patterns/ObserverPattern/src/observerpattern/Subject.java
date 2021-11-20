@@ -4,10 +4,6 @@ remove o hoye jay
  */
 package observerpattern;
 
-/**
- *
- * @author User
- */
 public interface Subject {
     public void registerObserver(Observer o);
     public void removeObserver(Observer o);
