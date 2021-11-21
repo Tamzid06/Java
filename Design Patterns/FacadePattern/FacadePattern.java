@@ -1,3 +1,7 @@
+// Author : Tamzid Hossain
+// CSE,SUST
+// Bangladesh
+
 import java.util.ArrayList;
 
 class Light{
