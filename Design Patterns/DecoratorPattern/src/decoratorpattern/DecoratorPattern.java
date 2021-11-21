@@ -1,12 +1,13 @@
+//..........Author : Tamzid Hossain.............
+// .........CSE,SUST............................
+// .........Bangladesh..........................
+//..........Mail: tamzidh@acm.org...............
+//................tamzid.cse.sust@gmail.com.....
+
 /*
 Decorator pattern attaches additional responsibilitis to an object Dynamically. Decorators
 provide a flexible alternative to subclassing for extending functionality
 
-By using decorator pattern you can enpersonate a class and add additional functionality to it without
-any of the users of the class actually knowing that its any different then the real original class.
-
-we use composition and some clever type matching tricks using abstract classes in the java language to
-enpersonate the class
 
 Ei example e amra dekhbo kivabe subclass baniye implement na kore onnovabe amra functionality add korte pari.
 dhora jak ekta coffeeshop ase, jekhane onk type er coffee pawa jay. Espresso, Dark roast, Lattee aro koto ki. Abr
@@ -24,7 +25,15 @@ tahole take Coffee class er jinishgulao implement korte hobe.
 Ei CoffeeDecorator class ta dynamically ingredient add korte help korbe. Ja Ja ingredient ase, tara ei class takee extend
 korbe. era Coffee class er object nibe, then nijer moto pricing add korbe abong name tag eo ingredient add korbe.
 
-ar coffee er je taype gula, ei class gula Coffee ke extend korbe
+ar coffee er je type gula, ei class gula Coffee ke extend korbe
+
+
+                            Coffee
+            ................|    |................
+            |                                    |
+       CoffeeDecorator                        Espresso
+        |           |
+      WithMilk    WithSugar
 
 */
 package decoratorpattern;

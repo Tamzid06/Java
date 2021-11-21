@@ -1,3 +1,9 @@
+//..........Author : Tamzid Hossain.............
+// .........CSE,SUST............................
+// .........Bangladesh..........................
+//..........Mail: tamzidh@acm.org...............
+//................tamzid.cse.sust@gmail.com.....
+
 /*
 In object oriented programming, the command pattern is a behavourial design pattern in which an object is used to 
 encapsulate all information needed to perform an action or trigger an event at a later time.
@@ -14,6 +20,10 @@ ki ki kora lagbe tao encapsulate kora thakbe.
 amra ekhane emn ekta slot o add korte pari, shob kisu on hobe ba shob kisu off kore dibe emn.
 
 2 dhoroner Hardware thakbe. Music and Kitchen.
+
+                                                        C o m m a n d
+                       MuisicOnCommand     MusicOffCommand     KitchenLightOnCommand     KitchenLightOffCommand 
+                                 
 */
 
 package commandpattern;

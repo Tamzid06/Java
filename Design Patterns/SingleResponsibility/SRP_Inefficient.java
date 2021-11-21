@@ -14,7 +14,7 @@ class OnlineExm {
     }
     //here, this method has too many responsibility.it takes exam,generates result and submit that to the server
     public Integer takeExm(){
-        //taking result
+        //taking exam
         System.out.println(this.subject+" Exam Completed");
 
         //generating result
